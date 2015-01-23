@@ -2,7 +2,7 @@
 #   Create hangouts with Hubot.
 #
 # Commands:
-#   hubot hangout me <title> - Creates a Hangout with the given title and returns the URL.
+#   hubot let's hangout <title> - Creates a Hangout with the given title and returns the URL.
 #
 # Configuration:
 #   HUBOT_GOOGLE_HANGOUTS_DOMAIN: Google Apps domain used as a scope for
