@@ -1,0 +1,20 @@
+{
+  "name": "hal",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Anthony Smith <anthony@sticksnleaves.com>",
+  "description": "Heuristically programmed ALgorithmic computer",
+  "dependencies": {
+    "hubot": "^2.11.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-hipchat": "^2.7.5",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
