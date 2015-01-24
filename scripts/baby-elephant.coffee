@@ -17,8 +17,8 @@ module.exports = (robot) ->
 doGif = (results, done) ->
   resultIndex = Math.floor(Math.random() * (results.children.length - 0) + 0)
   whichResult = results.children[resultIndex].data
-  #gif = whichResult.url
-  gif = 'https://gfycat.com/FatalFluidHarrier'
+  gif = whichResult.url
+  #gif = 'https://gfycat.com/FatalFluidHarrier'
 
   if gif.match GFYCAT_REGEX
     request gif.replace(GFYCAT_REGEX, 'http://gfycat.com/cajax/get/'), (err, res, body) ->
