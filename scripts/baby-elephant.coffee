@@ -1,11 +1,8 @@
 # Description:
 #   Get a baby elephant
 #
-# Commands:
-#   hubot baby elephant me - Grab a random GIF from http://www.reddit.com/r/babyelephantgifs/
-#
 # Author:
-#   rowanmanning
+#   anthonator
 
 request = require 'request'
 
