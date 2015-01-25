@@ -6,7 +6,7 @@ module.exports = (robot) ->
       'The Newbs has spoken',
       'So is the word of The Newb',
       'The Newbeth has pwned thee',
-      'So sayeth the Book of Newby'
+      'So sayeth the Book of Newby™'
     ]
 
     if msg.message.user.name == 'Jake Newby'
