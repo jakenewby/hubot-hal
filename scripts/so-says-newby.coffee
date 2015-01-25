@@ -2,7 +2,7 @@ module.exports = (robot) ->
   robot.hear /./, (msg) ->
     praises = [
       'Praise be to The Newbs',
-      'So it is written in the Book of Newby',
+      'So it is written in the Book of Newby™',
       'The Newbs has spoken',
       'So is the word of The Newb',
       'The Newbeth has pwned thee',
